@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: servicio-productos
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: false
+server:
+  port: 8090
