@@ -8,3 +8,9 @@ spring:
     show-sql: false
 server:
   port: 8090
+
+springdoc:
+  api-docs:
+    path: /openapi/docs
+  swagger-ui:
+    path: /openapi
