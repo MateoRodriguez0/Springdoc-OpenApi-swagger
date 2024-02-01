@@ -12,6 +12,21 @@ springdoc:
     path: /openapi
 
 ```
+### Dependencies
+```xml
+<dependency>
+	<groupId>org.springdoc</groupId>
+	<artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+	<version>2.3.0</version>
+</dependency>
+
+<dependency>
+	<groupId>org.springdoc</groupId>
+	<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+	<version>2.3.0</version>
+</dependency>
+```
+
 ### creation of schema for the Requestbody of the endpoint localhost:8090/save
 
 ``` java
